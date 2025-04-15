@@ -43,8 +43,9 @@ Before running or developing this blueprint, ensure you have:
 
 1.  **Rust:** Install the Rust toolchain from [rust-lang.org](https://www.rust-lang.org/tools/install).
 2.  **`cargo-tangle`:** The Tangle CLI for blueprint management. Install it with:
+
     ```bash
-    cargo install cargo-tangle --git https://github.com/webb-tools/tangle --tag v0.1.0 # Use the official repo
+    cargo install cargo-tangle --git https://github.com/webb-tools/tangle --force
     ```
 3.  **LM Studio:** Download and install LM Studio from [lmstudio.ai](https://lmstudio.ai/).
 4.  **`lms` CLI:** **Crucially**, you must run LM Studio at least once and then **bootstrap** the `lms` CLI so it's available in your system's PATH. Follow the instructions in the LM Studio app or run:
